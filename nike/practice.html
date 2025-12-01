@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        #flexcontainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 100%;
+            /* background: red; */
+            flex-direction:  row;
+flex-wrap: wrap;
+        }
+        .flexitems{
+            height: 100px;
+            width: 100px;
+            /* background-color:aqua;
+            border: 3px solid black; */
+
+        }
+        #flexitem1{
+            /* order: 5; */
+            align-self: flex-end;
+            /* flex-grow: 1; */
+        }
+        #flexitem2{
+            /* order: 1; */
+            /* align-self: self-end; */
+            flex-grow: 1;
+        }
+        #flexitem3{
+            /* order: 3; */
+            flex-grow: 1;
+        }
+        #flexitem4{
+            /* order: 2; */
+            flex-grow: 1;
+        }
+        #flexitem5{
+            /* order: 4; */
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="flexcontainer">
+       <div class="flexitems" id="flexitem1">Company</div>
+       <div class="flexitems" id="flexitem2">about</div>
+       <div class="flexitems" id="flexitem3">contact us</div>
+       <div class="flexitems" id="flexitem4">services</div>
+       <div class="flexitems" id="flexitem5">products</div>
+    </div>
+</body>
+</html>
