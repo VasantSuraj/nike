@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <style>
+        #contents{
+           width: 40%;
+           display: flex;
+           justify-content: space-around;
+            align-items: center;
+            list-style: none;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        #contents>li:only-of-type{
+            color: red;font-size: larger;
+        }
+        #img{
+            height: 40vh;
+            width: 40vw;
+            background-image: url("https://plus.unsplash.com/premium_photo-1683134635410-7409eb4f6d44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D");
+            background-repeat: no-repeat;
+            background-size: 40vw 40vh;
+            position: absolute;
+            top: 150px;
+            left: 450px;
+            filter: blur(1px);
+            filter: brightness(30%);
+            filter: contrast(200%);
+            filter: drop-shadow(5px 5px 5px black);
+            filter: grayscale(100%);
+            filter: hue-rotate(100deg);
+            filter: invert(100%);
+            filter: saturate(100%);
+            filter: sepia(100%);
+            filter: opacity(50%);
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div id="content">
+            <h1>Logocode</h1>
+        </div>
+        <div id="contents">
+            <li>products</li>
+            <!-- <li>jo</li> -->
+            <h1>hi</h1>
+            <h3>hello</h3>
+            <!-- <li>categories</li>
+            <li>services</li>
+            <li>help</li> -->
+        </div>
+        
+    </nav>
+    <div id="img"></div>
+   
+  </body>
+</html>

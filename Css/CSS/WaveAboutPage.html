@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+         #a1{
+        background-color: white;
+        height: 190px;
+        width: 640px;
+        font-size: 50px;
+        left: 50px;
+        color:#099;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+       position: fixed;
+       top: 70px;
+       font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+       font-weight: 500;
+       }
+       div#a1 i:first-of-type{
+       position: absolute;
+       left: 140px;
+       }
+       div#a1 span:first-of-type{
+       position: absolute;
+       left: 260px;
+       }
+       #a2{
+            position: absolute;
+            left: 58px;
+            top: 210px;
+        }
+        #a3{
+            position: absolute;
+            top: 210px;
+            left: 400px;
+        }
+        #a4{
+            position: absolute;
+            left: 58px;
+            top: 380px;
+        }
+        #a5{
+            position: absolute;
+            left: 400px;
+            top: 380px;
+        }
+        #video{
+          position: fixed; 
+          top: -100px; 
+          left: -10px;
+        }
+        #ap2{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap2:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #ap3{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap3:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #ap4{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap4:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #ap5{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap5:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #m1{
+            height: 440px;
+            width: 700px;
+            position: relative;
+            top: 60px;
+            background-color:rgba(0, 0, 0, .6);
+            left: 800px;
+        }
+        #n1{
+            white-space: pre-wrap;
+            color: white;
+            position: absolute;
+            left: 260px;
+            font-size: 22px;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            top: 60px;
+            width: 55%;
+        }
+        img{
+           
+            position: absolute;
+            z-index: 10;
+            top: 130px;
+            
+        }
+        #h1{
+            position: absolute;
+            right: 10px;
+            color: #099;
+            font-size: 18px;
+            font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+            top: 30px;
+            left: 200px;
+        }
+        #m2{
+            height: 440px;
+            width: 700px;
+            position: relative;
+            top: 100px;
+            background-color:rgba(0, 0, 0, .6);
+            left: 800px;
+        }
+        #n2{
+            white-space: pre-wrap;
+            color: white;
+            position: absolute;
+            left: 50px;
+            font-size: 22px;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            top: 60px;
+            width: 55%;
+        }
+        #img1{
+           
+            position: absolute;
+            z-index: 10;
+            top: 130px;
+            left: 0;
+            
+        }
+        #img2{
+            position: absolute;
+            z-index: 10;
+            top: 130px;
+            right: 0;
+        }
+        #h2{
+            position: absolute;
+            right: 10px;
+            color: #099;
+            font-size: 18px;
+            font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+            top: 30px;
+            left: 50px;
+        }
+        #m3{
+            height: 440px;
+            width: 700px;
+            top: 190px;
+           
+        }
+    </style>
+</head>
+<body>
+    
+        <div id="video">
+            <video src="videoplayback.webm" autoplay muted loop height="890px" width="1550px"></video>
+        </div>
+        
+        <div id="a1"><i class="fa-solid fa-mug-saucer"></i>
+            <span><em>Wave Cafe</em></span></div>
+        <div id="a2">
+            <a href="WaveCafeHC.html" id="ap2"><i class="fa-solid fa-mug-hot"></i>Drinks Menu</a>
+        </div>
+        <div id="a3">
+            <a href="WaveAboutPage.html" id="ap3"><i class="fa-solid fa-users"></i>About Us</a>
+        </div>
+        <div id="a4">
+            <a href="WaveCafeSpecialItems.html" id="ap4"><i class="fa-solid fa-martini-glass-empty"></i>Special Items</a>
+        </div>
+        <div id="a5">
+            <a href="WaveCafeContactus.html" id="ap5" ><i class="fa-solid fa-mug-saucer"></i>contact us</a>
+        </div>
+
+        <div id="m1">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/wave-cafe/assets/img/about-1.png" alt="" id="img1">
+            <div id="h1"><h1>About Wave Cafe</h1></div>
+            <div id="n1">
+            <p>Wave Cafe is a one-page video background HTML CSS template from Tooplate. You can use this for your business websites.
+
+                Maximus neque, et commodo nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus in venenatis venenatis et.</p></div>
+        </div>
+
+        <div id="m2">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/wave-cafe/assets/img/about-2.png" alt="" id="img2">
+            <div id="h2"><h1>How we began</h1></div>
+            <div id="n2">
+            <p>Arcu vestibulum molestie convallis risus. Sed et dui elementum, scelerisque augue quis, hendrerit elit varius     
+                website template image
+                Donec non urna elit. Quisque ut magna in dui mattis iaculis eu finibus metus. Suspendisse vel mi a lacus finibus vehicula vel ut diam. Nam pellentesque, mi quis ullamcorper.</p></div>
+        </div>
+
+        <div id="m3">
+
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation template</title>
+    <style>
+        #space{
+            position: relative;
+        }
+       
+       #cloud{
+        position: absolute;
+        display: flex;
+        top:100px;
+        left: 600px;
+       }
+       #light{
+        position: absolute;
+        top: 190px;
+        left: 600px;
+        animation-name: box;
+        animation-duration: 100ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+       }
+       #cloud1{
+        position: absolute;
+        display: flex;
+        top:100px;
+        left: 680px;
+       }
+       /* #light1{
+        position: absolute;
+        top: 190px;
+        left: 680px;
+        animation-name: box;
+        animation-duration: 100ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+       } */
+       #cloud2{
+        position: absolute;
+        display: flex;
+        top:100px;
+        left: 740px;
+       }
+       #light2{
+        position: absolute;
+        top: 190px;
+        left: 740px;
+        height: 200px;
+        animation-name: box;
+        animation-duration: 100ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+       }
+       @keyframes box{
+        0%{
+            top: 190px;
+        }
+        100%{
+            top: 200px;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div id="space">
+        <img src="https://cdn.pixabay.com/photo/2019/10/11/09/23/lake-4541454_640.jpg" alt=""  height="700px" width="100%">
+        <div id="cloud">
+            <img src="cloud-5694354_640-removebg-preview.png" alt="" width="200px">
+           
+        </div>
+        <div id="light"> 
+            <img src="thunder-953118_640-removebg-preview.png" alt="" height="200px" width="200px">
+        </div>
+
+        <div id="cloud1">
+            <img src="cloud-5694354_640-removebg-preview.png" alt="" width="200px">
+           
+        </div>
+        <!-- <div id="light1"> 
+            <img src="thunder-953118_640-removebg-preview.png" alt="" height="200px" width="200px">
+        </div> -->
+
+        <div id="cloud2">
+            <img src="cloud-5694354_640-removebg-preview.png" alt="" width="200px">
+           
+        </div>
+        <div id="light2"> 
+            <img src="thunder-953118_640-removebg-preview.png" alt="" height="200px" width="200px">
+        </div>
+        
+        
+    </div>
+</body>
+</html>

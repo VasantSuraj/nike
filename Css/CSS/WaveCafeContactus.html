@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WaveCafe</title>
+    <style>
+         #a1{
+        background-color: white;
+        height: 190px;
+        width: 640px;
+        font-size: 50px;
+        left: 50px;
+        color:#099;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+       position: fixed;
+       top: 70px;
+       font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+       font-weight: 500;
+       }
+       div#a1 i:first-of-type{
+       position: absolute;
+       left: 140px;
+       }
+       div#a1 span:first-of-type{
+       position: absolute;
+       left: 260px;
+       }
+       #a2{
+            position: absolute;
+            left: 58px;
+            top: 210px;
+        }
+        #a3{
+            position: absolute;
+            top: 210px;
+            left: 400px;
+        }
+        #a4{
+            position: absolute;
+            left: 58px;
+            top: 380px;
+        }
+        #a5{
+            position: absolute;
+            left: 400px;
+            top: 380px;
+        }
+        #video{
+          position: fixed; 
+          top: -100px; 
+          left: -10px;
+        }
+        #ap2{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap2:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #ap3{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap3:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #ap4{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap4:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #ap5{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #ap5:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #box1{
+            height: 300px;
+            width: 600px;
+            background-color: rgba(0, 0, 0, .6);
+            position: relative;
+            color: white;
+            left: 800px;
+            top: 50px;
+            font-family: sans-serif;
+        }
+        h1{
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            color: #099;
+        }
+        p{
+            position: absolute;
+            top: 100px;
+            font-size: 20px;
+            left: 50px;
+            width: 85%;
+            line-height: 33px;
+        }
+        #form{
+            height: 600px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, .6);
+            position: relative;
+            left: 900px;
+            top: 100px;
+        }
+        #input1{
+            position: absolute;
+            font-size: 20px;
+            background-color: transparent;
+            top: 110px;
+            border-top: 0px solid transparent;
+            border-left: 0px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 3px solid white;
+            left: 50px;
+            background-color: transparent;
+            color: white;
+            height: 50px;
+            width: 70%;
+           
+        }
+        #input2{
+            position: absolute;
+            font-size: 20px;
+            background-color: transparent;
+            top: 210px;
+            border-top: 0px solid transparent;
+            border-left: 0px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 3px solid white;
+            height: 50px;
+            background-color: transparent;
+            color: white;
+            width: 70%;
+            filter: invert(0%);
+            left: 50px;
+        }
+        #input3{
+            height: 200px;
+            width: 70%;
+            position: absolute;
+            font-size: 20px;
+            background-color: transparent;
+            color: white;
+            top: 290px;
+            border-top: 0px solid transparent;
+            border-left: 0px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 3px solid white;
+            left: 50px;
+        }
+        
+        #input1:visited{
+            border-bottom: 0px solid transparent;
+            border-top: 3px solid white;
+            border-left: 3px solid white;
+            border-right: 3px solid white;
+            border-bottom: 0px;
+            padding: 25px;
+            filter: invert(100%);
+
+        }
+        #input2:visited{
+            /* border-bottom: 0px solid white;
+            border-top: 3px solid white;
+            border-left: 3px solid white;
+            border-right: 3px solid white; */
+            padding: 25px;
+
+        }
+        #input3:visited{
+            /* border-bottom: 0px solid white;
+            border-top: 5px solid white;
+            border-left: 5px solid white;
+            border-right: 5px solid white; */
+            padding: 55px;
+            
+        }
+        button{
+            height: 50px;
+            width: 130px;
+            top: 520px;
+            left: 275px;
+            position: absolute;
+            border-radius: 5px;
+            color: #099;
+            font-size: 23px;
+            
+        }
+        #empty{
+            height: 200px;
+            width: 100%;
+            top: 520px;
+            left: 50px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    
+        <div id="video">
+            <video src="videoplayback.webm" autoplay muted loop height="890px" width="1550px"></video>
+        </div>
+        
+        <div id="a1"><i class="fa-solid fa-mug-saucer"></i>
+            <span><em>Wave Cafe</em></span></div>
+        <div id="a2">
+            <a href="WaveCafeHC.html" id="ap2"><i class="fa-solid fa-mug-hot"></i>Drinks Menu</a>
+        </div>
+        <div id="a3">
+            <a href="WaveAboutPage.html" id="ap3"><i class="fa-solid fa-users"></i>About Us</a>
+        </div>
+        <div id="a4">
+            <a href="WaveCafeSpecialItems.html" id="ap4"><i class="fa-solid fa-martini-glass-empty"></i>Special Items</a>
+        </div>
+        <div id="a5">
+            <a href="WaveCafeContactus.html" id="ap5" ><i class="fa-solid fa-mug-saucer"></i>contact us</a>
+        </div>
+
+
+        <div id="box1">
+            <h1>Contact Wave</h1><p>Wave Cafe Template has a video background. You can use this layout for your websites. Please contact Tooplate's Facebook page. Tell your friends about our website.</p>
+
+        </div>
+
+        <div id="form">
+            <form action="">
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Name" id="input1" required autocomplete="on"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="E-mail" id="input2" required autocomplete="on"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Message" id="input3" required autocomplete="on"></td>
+                    </tr>
+                    <tr><button>Submit</button></tr>
+                </table>
+            </form>
+        </div>
+        <div id="empty">
+
+        </div>
+</body>
+</html>

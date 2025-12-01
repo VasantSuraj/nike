@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FORMS</title>
+  </head>
+  <body>
+    <form action="" method="get" autocomplete="off">
+        <fieldset>
+            <legend>Enter the details</legend> 
+            
+            <table bgcolor="cyan">
+                <tr>
+                    <td>
+                        <label for="im">Profile</label>
+                    </td>
+                    <td>
+                        <input type="image" name="img" id="im" src="dog1" height="50px" width="50px" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fn">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text"  name="fn" placeholder="Enter your fisrt name" id="fn" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ln">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="ln" placeholder="Enter your last name" id="ln" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pwd">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="pwd" required id="pwd" placeholder="Enter the Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="db">DOB</label>
+                
+                
+                    <td>
+                    <input type="date" id="db" name="dob"></td>
+                </tr>
+                <tr><td>
+                    <label for="num">Mobile</label></td>
+                <td>
+                    <input type="tel" minlength="0" maxlength="10" required placeholder="Number" id="num" name="num"></td>
+                </td>
+                <tr><td>
+                    <label for="add">Address</label></td>
+                <td>
+                    <textarea name="" id="add" placeholder="enter your address" required name="add"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gen">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="gen" value="Male" name="Gender">Male
+                        <input type="radio" id="gen" value="Female" name="Gender">Female
+                        <input type="radio" id="gen" value="Others" name="Gender">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sport">Sport</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="sport1" id="sport">Cricket
+                        <input type="checkbox" name="sport2" id="sport">Football
+                        <input type="checkbox" name="sport3" id="sport">Hockey
+                        <input type="checkbox" name="sport4" id="sport">Basketball
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="drop">Technologies</label>
+                    </td>
+                    <td>
+                        <select name="technologies" id="drop">
+                            <option value="">HTML</option>
+                            <option value="" selected>CSS</option>
+                            <option value="">JS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="em">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" name="E-mail" id="em" placeholder="Enter your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="file">Choose a file</label>
+                    </td>
+                    <td>
+                        <input type="file" name="file" id="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="range" >Select an range</label>
+                    </td>
+                    <td>
+                        <input type="range" name="range" id="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <input type="search" name="search" id="se">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="col">Choose Color</label>
+                    </td>
+                    <td>
+                        <input type="color" name="color" id="col">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hide">Hidden</label>
+                    </td>
+                    <td>
+                        <input type="hidden" id="hide" name="hide">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="url">Enter the URL</label>
+                    </td>
+                    <td>
+                        <input type="url" id="url" name="url">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                    <td>
+                        <button>Cancel</button>
+                    </td>
+                    <td>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+  </body>
+</html>

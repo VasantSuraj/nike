@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mobirise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h1{
+            font-family: sans-serif;
+            font-weight: 900px;
+            color: black;
+        }
+        img,video{
+            height: 200px;
+            border-radius: 30px;
+        }
+        p{
+            font-size: x-large;
+            font-family: sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            position: fixed;
+            margin-top: -50px;
+            background-color: rgba(255, 255, 255,0);
+            
+            z-index: 15;
+        }
+        #img0{
+            height: 50px;
+            border-radius: 5px;
+            margin-left: 40px;
+        }
+        #span1{
+          font-size: x-large;
+          font-weight: 900px;
+          margin-left: 80px;
+          margin-top: -35px;
+        }
+        #ss{
+            margin-left: 30px;
+            margin-top: -40px;
+            font-family: sans-serif;
+        }
+        #button1{
+            
+            border: 0px;
+            border-radius: 35px;
+            padding: 25px;
+            background-color: rgb(98, 98, 255);
+            color: white;
+            margin-left: 50px;
+            font-size: large;
+            white-space: pre-wrap;
+        }
+        #button2{
+            border: 0px;
+            border-radius: 35px;
+            padding: 25px;
+            background-color: rgb(255, 99, 99);
+            color: white;
+            margin-left: 15px;
+            font-size: large;
+            white-space: pre-wrap;  
+        }
+        #span2{
+            margin-left: 600px;
+            justify-content: space-between;    
+        }
+        #ss1{
+            height: 50px;
+            margin-top: 5px;
+           margin-left: 150px;
+           
+        }
+        #span3{
+            margin-left: -30px;
+        }
+        #span4{
+            font-family: sans-serif;
+            font-size: xx-large;
+            margin-top: 500px;
+        }
+        .table{
+            margin-top: 100px;
+            margin: 60px;
+        }
+        #button2:hover{
+            background-color: rgb(255, 137, 137);
+            transition: background-color  linear  ;    
+        }
+        #button1:hover{
+            background-color: rgb(142, 142, 255);
+            transition: background-color  linear  ;  
+        }
+        #sec1{
+            height: 400px;
+            width: 100%;
+            background-image: radial-gradient(rgb(255, 255, 255) 0%,rgb(255, 255, 255) 35%, rgb(255, 178, 217) 35%,rgb(255, 178, 217)  70%, rgb(219, 164, 255) 70% ,rgb(219, 164, 255) 100%);
+            filter: blur(100px);
+            margin-top: 200px;
+            position: relative;
+        }
+        #border{
+            border: 1px 1px 10px black;
+            height: 500px;
+            width: 100%; 
+            position: relative;
+          
+        }
+        div#border p:first-child{
+            position: absolute;
+            width: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 70px;
+            font-weight: 900;
+            z-index: 10;
+            display: flex;
+           justify-content: center;
+           margin-top: 50px;
+        }
+        div#border p:nth-child(2){
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 140px;
+            z-index: 9;
+            left: 279px;
+            
+            
+        }
+        #button3{
+            position: absolute;
+            border: 0px;
+            border-radius: 35px;
+            padding: 25px;
+            background-color: rgb(98, 98, 255);
+            color: white;
+            margin-left: 750px;
+            margin-top: 230px;
+            font-size: large;
+            white-space: pre-wrap;
+            z-index: 8;
+        }
+        #button4{
+            position: absolute;
+            border: 0px;
+            border-radius: 35px;
+            padding: 25px;
+            background-color: rgb(255, 99, 99);
+            color: white;
+            margin-left: 450px;
+            margin-top: 230px;
+            font-size: large;
+            white-space: pre-wrap; 
+            z-index: 8;
+        }
+
+        #button4:hover{
+            background-color: rgb(255, 137, 137);
+            transition: background-color  linear  ;    
+        }
+        #button3:hover{
+            background-color: rgb(142, 142, 255);
+            transition: background-color  linear  ;  
+
+        }
+       #final{
+        background-color: #f7f7f7;
+        height: 2600px;
+        width: 100%;
+        margin-top: 40px;
+        position: relative;
+       }
+       div#final h1:first-child{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 100%;
+        font-size: 50px;
+        color: black;
+        position: absolute;
+       }
+       #a1{
+        background-color: white;
+        height: 900px;
+        width: 250px;
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a1 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 110px;
+       top: 710px;
+       }
+       div#a1 h1:first-of-type{
+        position: absolute;
+        top: 790px;
+        left: 60px;
+        
+       }
+       div#a1 span:first-of-type{
+        position: absolute;
+        top: 850px;
+        left: 75px;
+        font-size: larger;
+       }
+       #a2{
+        background-color: white;
+        height: 900px;
+        width: 250px;
+        position: absolute;
+        top: 150px;
+        left: 390px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a2 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 120px;
+       top: 710px;
+       }
+       div#a2 h1:first-of-type{
+        position: absolute;
+        top: 790px;
+        left: 55px;
+       }
+       div#a2 span:first-of-type{
+        position: absolute;
+        top: 850px;
+        left: 110px;
+        font-size: larger;
+       }
+       #a3{
+        background-color: white;
+        height: 350px;
+        width: 250px;
+        position: absolute;
+        top: 150px;
+        left: 760px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a3 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 120px;
+       top: 230px;
+       }
+       div#a3 h1:first-of-type{
+        position: absolute;
+        top: 330px;
+        left: 90px;
+       }
+       
+       #a4{
+        background-color: white;
+        height: 450px;
+        width: 250px;
+        position: absolute;
+        top: 150px;
+        left: 1130px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a4 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 120px;
+       top: 320px;
+       }
+       div#a4 h1:first-of-type{
+        position: absolute;
+        top: 410px;
+        left: 55px;
+       }
+       div#a4 span:first-of-type{
+        position: absolute;
+        top: 470px;
+        left: 115px;
+        font-size: larger;
+       }
+       #a5{
+        background-color: white;
+        height: 450px;
+        width: 250px;
+        position: absolute;
+        top: 1160px;
+        left: 20px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a5 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 110px;
+       top: 330px;
+       }
+       div#a5 h1:first-of-type{
+        position: absolute;
+        top: 410px;
+        left: 45px;
+       }
+       div#a5 span:first-of-type{
+        position: absolute;
+        top: 470px;
+        left: 90px;
+        font-size: larger;
+       }
+       #a6{
+        background-color: white;
+        height: 490px;
+        width: 250px;
+        position: absolute;
+        top: 1160px;
+        left: 390px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a6 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 110px;
+       top: 360px;
+       }
+       div#a6 h1:first-of-type{
+        position: absolute;
+        top: 445px;
+        left: 75px;
+       }
+       div#a6 span:first-of-type{
+        position: absolute;
+        top: 500px;
+        left: 100px;
+        font-size: larger;
+       }
+       #a7{
+        background-color: white;
+        height: 590px;
+        width: 250px;
+        position: absolute;
+        top: 610px;
+        left: 760px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a7 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 110px;
+       top: 450px;
+       }
+       div#a7 h1:first-of-type{
+        position: absolute;
+        top: 540px;
+        left: 40px;
+       font-size: 30px;
+       }
+       #a8{
+        background-color: white;
+        height: 560px;
+        width: 250px;
+        position: absolute;
+        top: 710px;
+        left: 1130px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a8 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 110px;
+       top: 400px;
+       }
+       div#a8 h1:first-of-type{
+        position: absolute;
+        top: 480px;
+        left: 80px;
+       font-size: 30px;
+       }
+       div#a8 span:first-of-type{
+        position: absolute;
+        top: 540px;
+        left: 120px;
+        font-size: larger;
+       }
+       #a9{
+        background-color: white;
+        height: 500px;
+        width: 250px;
+        position: absolute;
+        top: 1720px;
+        left: 20px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#a9 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 120px;
+       top: 360px;
+       }
+       div#a9 h1:first-of-type{
+        position: absolute;
+        top: 450px;
+        left: 70px;
+       }
+       div#a9 span:first-of-type{
+        position: absolute;
+        top: 510px;
+        left: 115px;
+        font-size: larger;
+       }
+       #b1{
+        background-color: white;
+        height: 630px;
+        width: 250px;
+        position: absolute;
+        top: 1760px;
+        left: 390px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#b1 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 110px;
+       top: 500px;
+       }
+       div#b1 h1:first-of-type{
+        position: absolute;
+        top: 590px;
+        left: 40px;
+       font-size: 30px;
+       }
+       div#b1 span:first-of-type{
+        position: absolute;
+        top: 650px;
+        left: 115px;
+        font-size: larger;
+       }
+       #b2{
+        background-color: white;
+        height: 630px;
+        width: 250px;
+        position: absolute;
+        top: 1310px;
+        left: 760px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#b2 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 110px;
+       top: 480px;
+       }
+       div#b2 h1:first-of-type{
+        position: absolute;
+        top: 570px;
+        left: 65px;
+       font-size: 30px;
+       }
+       div#b2 span:first-of-type{
+        position: absolute;
+        top: 630px;
+        left: 95px;
+        font-size: larger;
+       }
+       #b3{
+        background-color: white;
+        height: 500px;
+        width: 250px;
+        position: absolute;
+        top: 1380px;
+        left: 1130px;
+        border-radius: 40px;
+       text-align: left;
+        line-height: 35px;
+        font-family: sans-serif;
+        padding: 40px;
+       }
+       div#b3 img:first-of-type{
+        border-radius: 100%;
+       height: 90px;
+       width: 100px;
+       position: absolute;
+       left: 115px;
+       top: 350px;
+       }
+       div#b3 h1:first-of-type{
+        position: absolute;
+        top: 440px;
+        left: 45px;
+       }
+       div#b3 span:first-of-type{
+        position: absolute;
+        top: 500px;
+        left: 120px;
+        font-size: larger;
+       }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div >
+        <img src="https://mobirise.com/assets24/images/logo.png" alt=""  id="img0">
+        <div id="span1">
+            <span id="ss"><strong>MOBIRISE</strong></span>
+        </div>
+    </div>
+    <div id="span2">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0bGakyPU1CQsHDkafXgR1VxGbi4p7Ax1tyg&s" alt="" id="ss1">
+    </div>
+    <div id="span3">
+        <button id="button1"><strong>  Try AI  </strong></button>
+        <button id="button2"><strong>  GO PREMIUM - SAVE HUGE  </strong></button>
+    </div>
+       
+    </nav>
+ 
+    </span>
+    <table  cellpadding="20px" cellspacing="20px" class="table">
+       <tr>
+        <td colspan="2"> <span id="span4"><strong>MORE FEATURES</strong></td>
+            <td></td>
+       </td>
+        <tr id="img1">
+            <td><img src="https://mobirise.com/assets24/images/custom-domain.webp" alt="" ></td>
+            <td><h1>Custom domain</h1>
+                <p>Get your custom subdomain for *.mobirisesite.com for free or link your own domain with ease.</p></td>
+                <td><img src="https://mobirise.com/assets24/images/galleries.webp" alt=""></td>
+                <td><h1>Galleries</h1>
+                    <p>Create stunning portfolios with our galleries for photographers and illustrators.</p></td>
+        </tr>
+
+
+        <tr id="img2">
+            <td><video src="slider.mp4" autoplay loop muted ></video></td>
+            <td><h1>Image sliders</h1>
+                <p>Use eye-catching image sliders for your project.</p></td>
+                <td><img src="https://mobirise.com/assets24/images/shop-blocks.webp" alt=""></td>
+                <td><h1>Shop blocks</h1>
+                    <p>Creating an online store has never been easier! With shop blocks, you will make one in minutes. Add your products, fill out descriptions, set prices and that's it.</p></td>
+        </tr>
+
+
+        <tr id="img3">
+            <td><img src="https://mobirise.com/assets24/images/blog-features.webp" alt=""></td>
+            <td><h1>Blog features</h1>
+                <p>If you want to create your own online blog, try our pre-made blocks for latest posts, articles, content, and more.</p></td>
+                <td><img src="https://mobirise.com/assets24/images/popup.webp" alt=""></td>
+                <td><h1>Popup builder</h1>
+                    <p>Need a pop-up window for special offers and ads on your web page? Here you go!</p></td>
+        </tr>
+
+
+        <tr id="img4">
+            <td><img src="https://mobirise.com/assets24/images/social-feed.webp" alt=""></td>
+            <td><h1>Social feed</h1>
+               <p> Explore various social feed extensions: add your Instagram or Facebook posts, and showcase the latest TikTok or YouTube videos on your website.</p></td>
+                <td><img src="https://mobirise.com/assets24/images/image-editor.webp" alt=""></td>
+                <td><h1>
+                    Image editor</h1>
+                    <p>Choose your image or one of the offered ones in the free image library, zoom it in and out, turn upside down, flip it, or change its size easily like you want.</p></td>
+        </tr>
+
+
+        <tr id="img5">
+            <td><img src="https://mobirise.com/assets24/images/chat.webp" alt=""></td>
+            <td><h1>Popup Chat</h1>
+                <p>Add Popup chat to your site. Receive messages from your clients in Telegram, WhatsApp,Viber, Messenger, Discord, Signal.</p></td>
+                <td><img src="https://mobirise.com/assets24/images/smart-cart.webp" alt=""></td>
+                <td><h1>
+                    Shopping Cart</h1>
+                    <p>If you want to sell things online, try the PayPal Shopping Cart extension. Simplify website payments and enable easy purchases through PayPal.</p></td>
+        </tr>
+        <tr id="img6">
+            <td><img src="https://mobirise.com/assets24/images/bootstrap.webp" alt=""></td>
+            <td><h1>Bootstrap builder</h1>
+                <p>Mobirise website templates are based on Bootstrap 5, most powerful mobile first framework.</p></td>
+                <td><img src="https://mobirise.com/assets24/images/form-builder.webp" alt=""></td>
+                <td><h1>
+                    Form builder</h1>
+                    <p>Create your own contact form and easily get the information from your customers you request in it. Publish your site and receive emails right away.</p></td>
+        </tr>
+    </table>
+    <section>
+        <div id="border">
+            <div id="p111">
+                <p>Create your website with Mobirise</p> 
+                <p>Download the website builder software now and start designing your own unique website.</p> 
+                <button id="button4"><strong>  Download for Windows  </strong></button>
+                <button id="button3"><strong>  Download for Mac  </strong></button>
+            </div>
+            
+        <div id="sec1">
+           
+        </div>
+    </div>
+    </section>
+    <div id="final">
+        <h1>What experts say</h1>
+        <div id="a1">
+            <p>If you have ever been in the shower and just thought of something genius but it went from dream to down the drain almost instantly, Well I’m here to tell you Your Ideas, Thoughts and Dreams should be jotted down into ai.mobirise.com. Because whether you want to create a landing page, a blog, a portfolio, or anything else, ai.mobirise.com can help you achieve it in SECONDS.</p>
+            <img src="https://mobirise.com/assets24/images/foreign-recipe.jpg" alt="" >
+            <h1>Kelsey Taylor</h1>
+            <span>AKA Foreign Recipe</span>
+        </div>
+
+        <div id="a2"><p>If a website building novice asks me to point them in the direction of a totally free app, this website buildersoftware will now be high on my list of recommendations. I'm that impressed. I expected to find some bugs somewhere along the line. Perhaps an unresponsive button or a slowly reacting page element. But I found nothing of the sort. Mobirise is a dream to use.</p>
+        <img src="https://mobirise.com/assets24/images/mike-johnston.webp" alt="">
+        <h1>Mike Johnston</h1>
+        <span>CMS Critic</span>
+        </div>
+
+        <div id="a3"><p>Mobirise releases the first website theme based on latest Bootstrap 5</p>
+        <img src="https://mobirise.com/assets24/images/bloomberg.webp" alt="">
+        <h1>Bloomberg</h1> 
+         </div>
+
+        <div id="a4"><p>...which is a diplomatic way of saying “Hallelujah!” for being able to build websites that should require coding without any coding skills.</p>
+        <img src="https://mobirise.com/assets24/images/roger-hollings.webp" alt="">
+        <h1>Roger Hollings</h1>
+        <span>KillerStartups</span></div>
+
+
+        <div id="a5"><p>No matter what your skill level, Mobirise will help you build the website of your dreams. Its easy drag-and-drop style is ideal for beginners.</p>
+        <img src="https://mobirise.com/assets24/images/catherinehiley.webp" alt=""><h1>Catherine Hiley</h1>
+    <span>Cybernews.com</span></div>
+
+
+        <div id="a6"><p>Need a mobile-friendly, SEO-optimized, HTML, CSS, and JavaScript based site without breaking a sweat? Without paying a cent? Voila! (You're welcome.)</p>
+        <img src="https://mobirise.com/assets24/images/mark-gibbs.webp" alt=""><h1>Mark Gibbs</h1><span>NetworkWorld</span></div>
+
+
+        <div id="a7"><p>This is a tremendous program that's going to allow anybody to make beautiful websites with simple drag-and-drop templates that you can start using right away. It's free of charge, you pay nothing to get started today.</p>
+        <img src="https://mobirise.com/assets24/images/ray-the-video-guy.webp" alt=""><h1>Ray the video guy</h1></div>
+
+
+        <div id="a8"><p>As a Category Pioneer, Mobirise is making Bootstrap accessible to graphic professionals, hobbyists and web designers without their having to master the code base.</p>
+        <img src="https://mobirise.com/assets24/images/tom-green.webp" alt=""><h1>Tom Green</h1><span>About.com</span></div>
+
+
+
+        <div id="a9"><p>As far as I’m concerned, it looks like a Lego project to me created with a vast array or building blocks... Build sites that sparkle in a mobile world!</p>
+            <img src="https://mobirise.com/assets24/images/ric-manning.webp" alt=""><h1>Ric Manning</h1><span>GizmoEditor</span></div>
+
+
+        <div id="b1"><p>Those looking for a powerful yet beginner-friendly website builder will appreciate Mobirise. With an advanced block-based builder, great integrated features, and a selection of attractive premium themes, there’s a lot to like here.</p>
+            <img src="https://mobirise.com/assets24/images/daniel-blechynden.webp" alt=""><h1>Daniel Blechynden</h1><span>Tom's Guide</span></div>
+
+
+        <div id="b2"><p>Mobirise Website Builder Software is a whole new solution for both building sites that load as well and fast on smartphones as they do on desktops. This is absolutely one of the easiest software for website development.</p>
+        <img src="https://mobirise.com/assets24/images/alex-ivanovs.webp" alt=""><h1>Alex Ivanovs</h1><span>HuffingtonPost</span></div>
+
+
+        <div id="b3"><p>Drag and drop blocks and build websites in mere minutes! Mobirise is definitely one of the easiest software solution for website building.
+        </p><img src="https://mobirise.com/assets24/images/softpedia.webp" alt=""><h1>Vladimir Ciobica</h1><span>Softpedia</span></div>
+    
+    
+    
+    </div>
+
+
+  </body>
+</html>

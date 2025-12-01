@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        figure{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border: 5px dotted red;
+            position: absolute;
+            left: 650px;
+            bottom: 300px;
+            animation-name: box;
+            animation-duration: 2s;
+            animation-timing-function: linear; 
+            animation-iteration-count: infinite;
+        }
+        @keyframes box {
+            /* from{
+               
+                background-color: black;
+                border: 5px dotted red;
+            }
+            to{
+                background-color: red;
+                border: 5px dotted black;
+            } */
+
+            0%{
+                position: relative;
+                top: 0;
+                left: 0;
+                background-color: aqua;
+                border: 5px dotted red;
+                border-radius: 0%;
+                height: 0px;
+                width: 0%;
+            }
+            25%{
+                position: relative;
+                top: 200px;
+                left: 0;
+                background-color: chartreuse;
+                border: 5px soid rgb(208, 255, 0);
+                border-radius: 25%;
+                height:250px ;
+                width: 25%;
+            }
+            50%{
+                position: relative;
+                top: 200px;
+                left: 200px;
+                background-color: darkmagenta;
+                border-radius: 50%;
+                height:500px ;
+                width: 50%;
+                border: 5px dotted rgb(3, 255, 95);
+            }
+            75%{
+                position: relative;
+                top: 0;
+                left: 200px;
+                background-color: deeppink;
+                border: 5px soid rgb(25, 0, 255);
+                border-radius: 50%;
+                height:750px ;
+                width: 50%;
+            }
+            100%{
+                position: relative;
+                top: 0;
+                left: 0;
+                background-color: orangered;
+                border: 5px dotted rgb(255, 255, 255);
+                border-radius: 0%;
+                height: 1000px;
+                width: 100%;
+
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <figure>
+
+    </figure>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <style>
+        .Container{
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            /* scroll-snap-type:  x mandatory; */
+            padding: 10px;
+            gap: 10px;
+            scroll-padding: 10px;
+        }
+        #items{
+            flex: 0 0 100%;
+            /* scroll-snap-align: start; */
+            /* scroll-snap-stop: always; */
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="Container">
+        <div id="items">
+            <img src="bpimg1" alt="">
+        </div>
+        <div id="items">
+            <img src="bpimg2" alt="">
+        </div>
+        <div id="items">
+            <img src="bpimg3" alt="">
+        </div>
+        <div id="items">
+            <img src="bpimg4" alt="">
+        </div>
+    </div>
+  </body>
+</html>
