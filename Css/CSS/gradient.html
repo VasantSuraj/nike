@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gradient</title>
+    <style>
+        #radial{
+            height: 500px;
+            width: 600px;
+            background-color: aqua;
+            margin-top: 100px;
+            margin-left: 300px;
+            border: 5px groove chartreuse;
+           
+            background-image: repeating-radial-gradient(brown 0%, brown 3%, yellow 3% , yellow 8%);
+        }
+        #radian{
+            height: 500px;
+            width: 600px;
+            background-color: aqua;
+            margin-top: 100px;
+            margin-left: 300px;
+            border: 5px groove chartreuse;
+            background-image: radial-gradient(aqua 0%,aqua 20%, hotpink 20%,hotpink 40%, lightgreen 40% ,lightgreen 80%);
+          
+        }
+        #conic{
+            height: 500px;
+            width: 600px;
+            background-color: red;
+            margin-top: 100px;
+            margin-left: 300px;
+            box-shadow: 5px 5px 5px grey;
+            background-image: conic-gradient(blue 0% ,blue 5%,black 5%, black 10%,red 10%,red 30%,yellow 30% ,yellow 50%, hotpink 50%, hotpink 60% ,goldenrod 60%, goldenrod 70%, green 70% );
+        }
+        #chakra{
+            height: 800px;
+            width: 800px;
+            background-image: repeating-conic-gradient(white 0%,white 2.10% , blue 2.10% , blue 4.20%);
+            border-radius: 50%;
+            margin-left: 400px;
+            
+        }
+        #linear{
+          height: 500px;
+            width: 100%;
+            background-color: rgb(255, 164, 252);
+            margin-top: 100px;
+            
+            background-image: radial-gradient(rgb(255, 255, 255) 0%,rgb(255, 255, 255) 35%, rgb(255, 178, 217) 35%,rgb(255, 178, 217)  70%, rgb(219, 164, 255) 70% ,rgb(219, 164, 255) 100%);
+          filter: blur(100px);
+          border: 5px;
+          
+        }
+    </style>
+  </head>
+  <body>
+    <div id="radial"></div>
+    <div id="radian"></div>
+    <div id="conic"></div>
+    <div id="chakra"></div> <br><br><br>
+    <div id="linear"></div>
+    
+  </body>
+</html>

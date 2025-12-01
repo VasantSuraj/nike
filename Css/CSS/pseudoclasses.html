@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo Classes</title>
+    <Style>
+        h1{
+            display: flex;
+            justify-content: center;
+            
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            
+        }
+        a:link{
+            color: aquamarine;
+        }
+        a:visited{
+            color: rgb(251, 0, 255);
+        }
+        a:hover{
+            color: rgb(255, 238, 0);
+        }
+        a:active{
+            color: lawngreen;
+        }
+        #box{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            position: absolute;
+            left: 600px;
+            top: 200px;
+            border-radius: 500px;
+            /* transition-property: background-color,border-radius;
+            transition-duration: 5s,5s;
+            transition-timing-function: linear,linear;
+            transition-delay: 2ms,2ms; */
+
+            /* shorthand property for transition i.e(tp td tmf td) */
+
+            transition: background-color 5s linear 2ms ,border-radius 3s linear 2ms;
+        }
+        #box:hover{
+            background-color: lawngreen;
+            border-radius: 0px;
+        }
+
+
+
+    </Style>
+  </head>
+  <body>
+
+
+    <h1>Pseudo Classes</h1>
+
+
+    <a href="www.instagram.com">Instagram</a>
+
+
+    <div id="box"></div>
+  </body>
+</html>

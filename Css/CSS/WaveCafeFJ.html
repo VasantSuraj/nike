@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wave Cafe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #a1{
+        background-color: white;
+        height: 190px;
+        width: 640px;
+        font-size: 50px;
+        left: 50px;
+        color:#099;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+       position: sticky;
+       top: 70px;
+       font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+       font-weight: 500;
+       }
+       div#a1 i:first-of-type{
+       position: absolute;
+       left: 140px;
+       }
+       div#a1 span:first-of-type{
+       position: absolute;
+       left: 260px;
+       }
+       #bb2{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #bb2:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #bb3{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #bb3:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #bb4{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #bb4:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #bb5{
+            height: 130px;
+            width: 300px;
+            border: none;
+            background-color: white;
+            color: #099;
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 1px;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            margin-top: 100px;
+            position: fixed;
+           font-size: x-large;
+           text-decoration: none;
+        }
+        #bb5:hover{
+            background-color: #099;
+            color: white;
+            /* box-shadow: 5px 5px 15px white; */
+            /* transition: background-color 3s linear 2ms; */
+        }
+        #a2{
+            position: absolute;
+            left: 58px;
+            top: 210px;
+        }
+        #a3{
+            position: absolute;
+            top: 210px;
+            left: 400px;
+        }
+        #a4{
+            position: absolute;
+            left: 58px;
+            top: 380px;
+        }
+        #a5{
+            position: absolute;
+            left: 400px;
+            top: 380px;
+        }
+        #video{
+          position: fixed; 
+          top: -100px; 
+          left: -10px;
+        }
+        #nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            height: 80px;
+            font-size: x-large;
+            color: white;
+            font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+        }
+       nav>a{
+        color: white;
+        text-decoration: none;
+       }
+        nav>a:hover{
+            color: aqua;
+            border-bottom: 4px solid aqua;
+            padding-bottom: 3px;
+            transition-duration: 200ms;
+        }
+        #z3:visited{
+            color: aqua;
+            border-bottom: 4px solid aqua;
+            padding-bottom: 3px;
+            font-size: x-large;
+        }
+        #border{
+            height: 80px;
+            width: 45%;
+            background-color: rgba(0, 0, 0, .6);
+            top: -110px;
+            left: 800px;
+            position: relative;
+        }
+        #img111{
+            position: absolute;
+            z-index:20 ;
+            left: -200px;
+        }
+        #scroll111{
+            position: relative;
+            background-color: rgba(0, 0, 0, .6);
+            height:160px;
+            width: 480px;
+            z-index: 20;
+           top: -70px;
+           left: 1000px;
+           color: white;
+        }
+        #h111{
+           
+           font-size: 12px;
+           font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+           position: absolute;
+           top: 10px;
+           left: 30px;
+           height: 300px;
+           width: 100%;
+        }
+        #r111{
+            color: aqua;
+            font-size: 25px;
+            position: absolute;
+            top: 25px;
+            left: 380px;
+
+        }
+        #p111{
+            font-size: 21px;
+            font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 60px;
+            left: 15px;
+            padding: 15px;
+        }
+        #scroll112{
+            position: relative;
+            background-color: rgba(0, 0, 0, .6);
+            height:160px;
+            width: 480px;
+            z-index: 20;
+           top: -30px;
+           left: 1000px;
+           color: white;
+        }
+        #img112{
+            position: absolute;
+            z-index:20 ;
+            left: -200px;
+            top: 1px;
+        }
+        #h112{
+           
+           font-size: 12px;
+           font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+           position: absolute;
+           top: 10px;
+           left: 30px;
+           height: 300px;
+           width: 100%;
+        }
+        #r112{
+            color: aqua;
+            font-size: 25px;
+            position: absolute;
+            top: 25px;
+            left: 380px;
+
+        }
+        #p112{
+            font-size: 21px;
+            font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 60px;
+            left: 15px;
+            padding: 15px;
+        }
+        #scroll113{
+            position: relative;
+            background-color: rgba(0, 0, 0, .6);
+            height:160px;
+            width: 480px;
+            z-index: 20;
+           top: 10px;
+           left: 1000px;
+           color: white;
+        }
+        #img113{
+            position: absolute;
+            z-index:20 ;
+            left: -200px;
+            top: 1px;
+        }
+        #h113{
+           
+           font-size: 12px;
+           font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+           position: absolute;
+           top: 10px;
+           left: 30px;
+           height: 300px;
+           width: 100%;
+        }
+        #r113{
+            color: aqua;
+            font-size: 25px;
+            position: absolute;
+            top: 25px;
+            left: 380px;
+
+        }
+        #p113{
+            font-size: 21px;
+            font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 60px;
+            left: 15px;
+            padding: 15px;
+        }
+        #scroll114{
+            position: relative;
+            background-color: rgba(0, 0, 0, .6);
+            height:160px;
+            width: 480px;
+            z-index: 20;
+           top: 50px;
+           left: 1000px;
+           color: white;
+        }
+        #img114{
+            position: absolute;
+            z-index:20 ;
+            left: -200px;
+            top: 1px;
+        }
+        #h114{
+           
+           font-size: 12px;
+           font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+           position: absolute;
+           top: 10px;
+           left: 30px;
+           height: 300px;
+           width: 100%;
+        }
+        #r114{
+            color: aqua;
+            font-size: 25px;
+            position: absolute;
+            top: 25px;
+            left: 380px;
+
+        }
+        #p114{
+            font-size: 21px;
+            font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 60px;
+            left: 15px;
+            padding: 15px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="video">
+        <video src="videoplayback.webm" autoplay muted loop height="890px" width="1550px"></video>
+    </div>
+    <div id="a1"><i class="fa-solid fa-mug-saucer"></i>
+        <span><em>Wave Cafe</em></span></div>
+    <div id="a2">
+        <a href="WaveCafeFJ.html" id="bb2"><i class="fa-solid fa-mug-hot"></i>Drinks Menu</a>
+    </div>
+    <div id="a3">
+        <a href="WaveAboutPage.html" id="bb3"><i class="fa-solid fa-users"></i>About Us</a>
+    </div>
+    <div id="a4">
+        <a href="WaveCafeSpecialItems.html" id="bb4"><i class="fa-solid fa-martini-glass-empty"></i>Special Items</a>
+    </div>
+    <div id="a5">
+        <a href="WaveCafeContactus.html" id="bb5"><i class="fa-solid fa-mug-saucer"></i>contact us</a>
+    </div>
+
+    <div id="border">
+        <nav id="nav">
+            <a href="WaveCafeIC.html" id="z1">Iced Coffee</a>
+            <a href="WaveCafeHC.html" id="z2">Hot Coffee</a>
+            <a href="WaveCafeFJ.html" id="z3">Fruit Juice</a>
+        </nav>
+    </div>
+    <div id="scroll111">
+    <div id="img111">
+        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/wave-cafe/assets/img/smoothie-1.png" alt="">
+        
+    </div>
+    <div id="h111"><h1>Strawberry Smoothie</h1></div>
+    <div id="r111">$12.50</div>
+    <div id="p111">Here is a short description for the item along with a squared thumbnail.</div>
+    
+</div>
+<div id="scroll112">
+    <div id="img112">
+        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/wave-cafe/assets/img/smoothie-2.png" alt="" srcset="">
+    </div>
+    <div id="h112"><h1>Red Berry Smoothie</h1></div>
+    <div id="r112">$12.50</div>
+    <div id="p112">Here is a list of 4 items or add more. You can use this template for commercial purposes.</div>
+</div>
+
+<div id="scroll113">
+    <div id="img113">
+        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/wave-cafe/assets/img/smoothie-3.png" alt="" srcset="">
+    </div>
+    <div id="h113"><h1>Pineapple Smoothie</h1></div>
+    <div id="r113">$16.50</div>
+    <div id="p113">Left side logo and main menu are fixed. The video background is fixed.</div>
+</div>
+
+<div id="scroll114">
+    <div id="img114">
+        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page290/wave-cafe/assets/img/smoothie-4.png" alt="" srcset="">
+    </div>
+    <div id="h114"><h1>Spinach Smoothie</h1></div>
+    <div id="r114">$18.50</div>
+    <div id="p114">Nulla urna erat, bibendum id efficitur ac, finibus eget tortor. Donec porttitor tellus.</div>
+</div>
+  </body>
+</html>

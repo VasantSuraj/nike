@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+
+    #facebook{
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            color: rgb(0, 55, 255);
+            position: absolute;
+            padding: 10px;
+            left: 10px;
+            font-size: 20px;
+}
+#nav{
+        height: 400px;
+        width: 400px;
+        border: 1px solid rgb(210, 210, 210);
+        position: relative;
+        left: 550px;
+         
+}
+#plus{
+    position: absolute;
+    left: 250px;
+    top: 35px;
+    /* border: 1px solid rgb(210, 210, 210); */
+    background: rgb(210, 210, 210);
+    border-radius: 100%;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#search{
+    position: absolute;
+    left: 300px;
+    top: 35px;
+    /* border: 1px solid rgb(210, 210, 210); */
+    background: rgb(210, 210, 210);
+    border-radius: 100%;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#message{
+    position: absolute;
+    left: 350px;
+    top: 35px;
+   
+    background: rgb(210, 210, 210);
+    border-radius: 100%;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#count{
+    background: red;
+    color: white;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 374px;
+    top: 32px;
+    font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+}
+#profile{
+    border-radius: 100%;
+     border: 1px solid rgb(230, 230, 230);
+    height: 55px;
+    width: 55px;
+    position: absolute;
+           top: 100px;
+            left: 15px;
+            display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#h3{
+    font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            color: rgb(0, 0, 0);
+            position: absolute;
+           top: 120px;
+            left: 90px;
+
+            
+}
+#image{
+    position: absolute;
+    left: 355px;
+    top: 120px;
+}
+#hr{
+    position: absolute;
+    top: 170px;
+    
+    width: 400px;
+
+}
+#hr1{
+    position: absolute;
+    top: 400px;
+    
+    width: 400px;
+
+}
+#grid-container{
+    background-color: white;
+    
+    
+    padding: 5px;
+    position: absolute;
+    top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5px;
+    left: 10px;
+    
+}
+.grid-items{
+    background-color: rgb(234, 234, 234);
+    color: white;
+    border: 1px solid rgb(233, 231, 231);
+    height: 170px;
+    width: 120px;
+    left: 5px;
+    border-radius: 20px;
+}
+#plus1{
+    position: absolute;
+    left: 50px;
+    top: 310px;
+    /* border: 1px solid rgb(210, 210, 210); */
+    background:  rgb(0, 55, 255);
+    border-radius: 100%;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 2;
+    
+    
+}
+#circle{
+    position: absolute;
+    left: 45px;
+    top: 306px; 
+    height: 45px;
+    width: 45px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 100%;
+}
+#h4{
+    color: black;
+  position: absolute;
+  left: 23px;
+  bottom: -5px;
+  font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 15px;
+
+}
+#img1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#img2{
+   border-radius: 20px;
+}
+</style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="facebook">
+            <h2>facebook</h2>
+        </div>
+        <div id="plus"><i class="fa-solid fa-plus fa-xl"></i></div>
+
+        <div id="search"><i class="fa-solid fa-magnifying-glass fa-l"></i></div>
+        <div id="message"><i class="fa-brands fa-facebook-messenger fa-xl"></i></div>
+        <div id="count"><h4>6</h4></div>
+
+
+        <div id="profile">
+            <img src="PicsArt_03-14-11.50.44.jpg" alt="" height="50px" width="50px">
+
+        </div>
+        <div id="h3">What's on your mind?</div>
+
+        <div id="image"><i class="fa-regular fa-images fa-xl" style="color: #63E6BE;"></i></div>
+        <hr id="hr">
+
+       
+            <div id="grid-container">
+                <div id="grid-items1" class="grid-items"><img src="PicsArt_03-14-11.50.44.jpg" alt="" height="130px" width="120px" id="img1"><h4 id="h4">Create story</h4> </div>
+                <div id="grid-items2" class="grid-items"><img src="bpimg4" alt=""  height="170px" width="120px" id="img2"></div>
+                <div id="grid-items3" class="grid-items"><img src="bpimg1" alt=""  height="170px" width="120px" id="img2"></div>
+                
+        </div>
+        <div id="plus1"><i class="fa-solid fa-plus fa-xl"></i></div>
+       
+      
+<!-- <hr id="hr1"> -->
+
+
+
+        
+    <div id="circle"> </div>
+    </div>
+
+
+
+
+   
+   
+</body>
+</html>
